@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* Principal CSS + Background------------------------------------------------------ */
+body{
+	background-color: black;
+}
+p, h1, a{
+	font-family: "Orbitron", sans-serif; /*https://fonts.google.com/selection/embed*/
+	font-optical-sizing: auto;
+	font-style: normal;
+	line-height: 1.5;
+	font-size: 20px;
+	color: rgba(249,249,249,1);
+	font-weight: 600;
+}
+
+.BGCover{
+	width: 100%;
+	height: 110%;
+	position: absolute;
+}
+
+#MainBackground{
+	/* BOX MODEL */
+	margin-top: -8px;
+	margin-left: -8px;
+	width: 101%;
+	height: 100%;
+	
+	/* ENHANCEMENT */
+	background-color:black;
+	background-position:top;
+	background-size: 80% 90%;
+	background-repeat: no-repeat;  
+}
+
+#SiteTitle{
+	pointer-events: none;
+	width: 30vw;
+	max-width: fit-content;
+	min-width: 240px;
+}
+
+#SiteTitleDiv{
+	position: absolute;
+	top: 6%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Old versions of Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome, Edge, Opera and Firefox */}
+
+
+/* Página 1 - Introdução------------------------------------------------------ */
+#Page1_Intro{
+	width: 70vw;
+	height: 60vh;
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	min-height: 300px;	
+	transition: opacity 1s;
+	display: none;
+}
+
+#JerryDialogBox{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#JerryDialogAvatar{
+	background-image: url(../img/Avatar.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	max-width: 26vw;
+	max-height: 33vh;
+	top: 8%;
+	left: 31.2%;
+	width: 100%;
+	height: 100%;
+}
+
+#JerryDialogText{
+	position: absolute;
+	max-width: 48vw;
+	max-height: 12vh;
+	top: 68%;
+	left: 16%;
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+	font-size: 17px;
+}
+
+/* Página 2 - Apostilas------------------------------------------------------ */
+#Page2_Apostilas{
+	width: 90vw;
+	height: 60vh;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	min-height: 300px;	
+	transition: opacity 1s;
+	display: block;
+}
+
+#tns1 > .tns-item{
+	padding: 0px 0.5%;
+}
+
+.ApostilasItem{
+	height: 60vh;
+}
+
+.ApostilasItem img{
+	max-width: 25vw;
+
+}
+
+.ApostilasItem h1{
+	font-size: 1.5vw;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.ApostilasItem a{
+	margin-left: 1vw;
+	color: aqua;
+	font-size: 1.2vw;
+	display: block;
+	line-height: 2.2vw;
+}
+
+.ApostilasTextBox{
+	background-color: #0006;
+	margin-left: 5%;
+	margin-top: -27px;
+	width: 21.5vw;
+	height: 35vh;
+	border: 4px fuchsia double;
+	border-radius: 20px 5px 15px 15px;
+	overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Botões----------------------------------------------------- */
+
+
+#NavBar{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTtThQW4aKgdIqaZMj6PG1nrO2ZZD6Gu9HzB2eBPP9gigPUlUc6XImOFzCwtuyocMVnyE2aWv3ulHgglzmj8cK7FSr-_g=s1600');
+	width: 100%;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	display: flex;
+	justify-content: center;
+}
+#NavBar_Bt01{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYSAfBjgzrPbr2OoFRDMVYtbb7C6fCG2ZvTOI9WwV8ng8Bdnc5orMrvR5shVQF49iU8NeQ8X8OcTyfHwyK-U3L3KU2TVZw=s1600');
+}
+#NavBar_Bt02{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRlIRamhkkLUSNm2_B909MK60l172gof0uEwpC_wo3bkjuMDl4Z50rDu45fyBdpm2eoyYReQES97ACZ1gq4SpohxtzT=s1600');
+}
+#NavBar_Bt02:hover{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQ14tDWjOtoNn9MGVBu0x72H42N65rGTNkfZ_sF0DcFWstf2r-I9h6dxxZN0MVsLlFZwCq0bW7q2Qvhrp1XGnjO7cxAuA=s1600');
+}
+#NavBar_Bt03{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYT7F4O5oR_osRny7cXlqhU210798mAip3SZd-_AFoMGYbjTVHY9ZGMscApPxKKTd0-OIwHyWwuknPwkRjRLY4HoJXJNkA=s1600');
+}
+#NavBar_Bt03:hover{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRTvWZve4Teu2LbFGUHtlW0e2JkpB331bvwNVLHmwfg-IwiIygM8BZtDb0dUhAuMHlRsxMAFifH_3osSMaFKKQLteXUcw=s1600');
+}
+#NavBar_Bt04{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRnUNVkiQTUTkvQ8CjWPzw07XHJvtVmnP0J-9KvJyUpDHBUoTrkQUdZvQjSd2_ZwJTah0ID-uQohGG8Ezg-OaRVaVC-rA=s1600');
+}
+/*#NavBar_Bt04:hover{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQapic8TLinp8ZRMZN3cIhb1EDVfQrFZVtXzemOkrDHzSX0vOc-4dnXdtN2BPTR4MQ9ZuDdtb_7c5lfb0fxlxZISMm3JA=s1600');
+}*/
+#NavBar_Bt05{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRZmn4N8wtqMCPnlFw7VWd_kuYjq6qifkEzv36me8W5Iq0yAiBQjjm72EmKr2DrQOo4L-w3-_fGXFhfIV8fAi0pL3OeOQ=s1600');
+}
+#NavBar_Bt05:hover{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTQfgFNOvbv6-ycUJM6LLsUmx4FfkYftD__MIOWJ87NDlDBoR0wGTcz9CW4ke3KxD-gX-a8ymhD4SqCbcUVmK8GmwFgQQ=s1600');
+}
+#NavBar_Bt06{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYS-HPMNYrqZ7zqmjxHghj5azfNYcYddzlBuy7IFmWclloCUOl53qhIJTHQ8NXm-DQ7Nfge3tNNd0sSUnJR9CBly8SQw=s1600');
+}
+/*#NavBar_Bt06:hover{
+	background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQg-OH4oitNNhEPn0m-88XB78mKUxmi5fh1bNN36Bj6JMzVjQYqsWc243hZL3K5R-Zn1Cun3w81N2c_pqyoXjZu3F2ExQ=s1600');
+}*/
+#NavBar_Bt01, #NavBar_Bt02, #NavBar_Bt03, #NavBar_Bt04, #NavBar_Bt05, #NavBar_Bt06{
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 105px;
+	height: 100px;
+	display: block;
+	float: left;
+	background-size: cover;
+	margin-left: 30px;
+	margin-top: 10;
+}
+@media only screen and (max-width: 810px) {
+	#NavBar{
+		display: none !important;
+	}
+}

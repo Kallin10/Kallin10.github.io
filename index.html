@@ -1,178 +1,72 @@
 <html>
-  <head></head>
-  <body>
+  <head>
+    <meta charset="utf-8">
+    <title>13º Andar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
-<!-- Header------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-    <div id="random">
-            <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYSey5cON32adeuFITO578JNkUro6zJlsC0RYe9n-rruU4IXek9AkE_xLOU6_WYFN0AnrvUIHzF134demfnkZMVUXYWVbg=s1600" id="Cover" style="pointer-events: none">
-        </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 
-        <style>
-            #Cover{
-                width: 100%;
-                height: 110%;
-           }
-            #random{
-                /* BOX MODEL */
-                margin-top: -25px;
-                width: 100%;
-                height: 99%;
-                border: 1px solid black;
-                overflow: hidden;
-                
-                /* ENHANCEMENT */
-                background-color:black;
-                background-position:top;
-                background-size: 80% 90%;
-                background-repeat: no-repeat;  
-            }
+    <link rel="stylesheet" href="css/MainStyle.css">
+  </head>
+  <body class="noselect">
+<!--SCRIPT_CALL_________________________________________________________________________________________________________________-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    
+<!-- MainDivUnderlay------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <div id="MainBackground">
+            <img src="./img/HUD_Bottom.png" class="BgCover" style="pointer-events: none">
+<!-- MainDivContent1------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<div id="Page1_Intro">
+    <div id="JerryDialogAvatar"></div>
+    <img src="./img/HUD_Dialogo.png" id="JerryDialogBox" style="pointer-events: none">
+    <p id="JerryDialogText">Este é o 13º Andar.
+        Uma sala que desafia a lógica do espaço e tempo, existência e inexistência. Estamos agora em todos os lugares e nenhum ao mesmo tempo, viajando ininterruptamente dentro das improbabilidades da noção e conhecimento.
+        Meu nome é Jerry e eu lhe dou os parabéns por ter conseguido chegar aqui... 
+        ... Aceita um café?</p>
+</div>
 
-            .db35Fc{
-                padding-left: 0px;
-                padding-right: 0px;
-            }
-        </style>
+<!-- MainDivContent2------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<div id="Page2_Apostilas">
+    <div class="my-slider">
+        <div class="ApostilasItem"><img src="./img/Banner_Agg1.png" style="pointer-events: none"> <div class="ApostilasTextBox"><h1>Arte Gráfica p/ Games 1</h1><p style="text-align: center;"><a href="https://drive.google.com/file/d/1OwN7Pai8ac_CsmwB6PNtSkXBNhZs0OV_/view?usp=drive_link" target=”_blank”>Apostila - 1º trimestre</a></p></div></div>
+        <div class="ApostilasItem"><img src="./img/Banner_Agg2.png" style="pointer-events: none"> <div class="ApostilasTextBox"><h1>Arte Gráfica p/ Games 2</h1><p style="text-align: center;"></p></div></div>
+        <div class="ApostilasItem"><img src="./img/Banner_Agg3.png" style="pointer-events: none"> <div class="ApostilasTextBox"><h1>Arte Gráfica p/ Games 3</h1><p style="text-align: center;"><a href="https://drive.google.com/file/d/1noiNvV7Fo81CxpDxh481cbYFhPZmMMuu/view?usp=drive_link" target=”_blank”>Apostila - 1º trimestre</a></p></div></div>
+        <div class="ApostilasItem"><img src="./img/Banner_GD1.png" style="pointer-events: none"> <div class="ApostilasTextBox"><h1>Game Design 1</h1><p style="text-align: center;"><a href="https://drive.google.com/file/d/1MWEt_lmCZdrppME8W3NoK1XymVV5mm4n/view?usp=drive_link" target="_blank">Apostila - 1º trimestre</a></p></div></div>
+        <div class="ApostilasItem"><img src="./img/Banner_GD2.png" style="pointer-events: none"> <div class="ApostilasTextBox"><h1>Game Design 2</h1><p style="text-align: center;"><a href="https://drive.google.com/file/d/1ngwDa9bLfxrE1mYyfgfUBXFJqqInSq3r/view?usp=drive_link" target=”_blank”>Apostila - 1º trimestre</a> <a href="https://drive.google.com/file/d/158xc37PXXTFebD-_B8Kq0L_bfUjsAigj/view?usp=drive_link" target="_blank">Assets para a aula</a></p></div></div>
+        <div class="ApostilasItem"><img src="./img/Banner_TecInfo.png" style="pointer-events: none"> <div class="ApostilasTextBox"><h1>Tec.Info. (Informática)</h1><p style="text-align: center;"><a href="https://drive.google.com/file/d/1MEILhVsOodxRKkyY-c3lAE-zcd1UxBXw/view?usp=drive_link" target="_blank">LibreOffice Impress</a></p></div></div>
+        <div class="ApostilasItem"><img src="./img/Banner_TecInfoGames.png" style="pointer-events: none"> <div class="ApostilasTextBox"><h1>Tec.Info. (Jogos)</h1><p style="text-align: center;"><a href="https://drive.google.com/file/d/1QzNoXUJQW1KSFnPfqheIcOMALqDDEAae/view?usp=drive_link" target="_blank">Apostila - 1º trimestre</a></p></div></div>
+    </div>
+</div>
 
-        <script type = "text/javascript">
-            function randombg(){
-                var randomWorld= Math.floor(Math.random() * 20) + 0;
-                var bigSize = ["url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQ299iejPayOtW96EGzZR3Y7_qNNFQGG8NJdKN1urHg-gCfvmXovrgsI03T2qouNU7jBjQ5c0_guEx1LhZF_dGReV1xPw=s2560')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYROLTEd8mr3io07N8xItTZTqZvVBsWpGe1CMKKE4I_PbtKMn8oUUApWqbkLkcy9A5UOEsPIXZi34XBP24RG8uwiw9n6=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRiRLzWIDDPnxYZrn0GE6aPIJeQKk-BbTI3E9xulbu4nx5lSmBtVgbgnADj1gu1gXjKOLYifhLT5YGflHz-WpX1gezbpA=s2560')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTL5WuheUoITzk9CA9TKbPcnKp4p9ffo9N4fyOrRfd7I8WchXwbi-_XFNOW9dgqEQjd2kvzsJ5MVvwK6JMyl-Vej6uObQ=s2560')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYROf0ZuaYkNsbV29IaeK1rsP8lehn13sqjdRJdzmoY1a_5oOYLBKDg5EkNhRM3VbqyA_g4FzN0NH8x7XO90nXg29XBwIQ=s2560')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQyG-JPILzzEuZaczvc-OHTWhUWsygEfD_EVY1azjnh1FHt9D8BYDGnolb4r4dZcRr97YyBZDQ4Zc5OvpIfq7PTFVe_=s2560')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTee_KR1s1JxYFDqVgpU23dLmVR7lCRizGw0k4ZQKWRIF92m8xNWfAp3__G8n69eoEpBz_0rVcD4w1P-nDYf1ghr4Bo=s2560')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYR_KrOl97RL7PLgn8DyisvXjfTFBjcG63ET6D_5WY217Z7dhhDiSFQJk7QwGBKMV6w2G90nU7qf0yhdKUB9IFeFalJN=s2560')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTYRsggHv89BkzA3vGJeTJR0LI44JOoiPxAHQqf-oCfvwutapcr0vpvrQYhjZSnRErfJnJYYwFKHLO3VbcBKLQDr30n=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYT9rE3dlW7u2herJOFC3IxM4JJQ95S5IBsGkEKYvYAEYmKTC2WBJYqyF2GPuDcZVB_ymtSvjPjvncu4zJlxhRVRAWNsMw=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQGaKBg0bPRLtkC4L-Z8XRmgSrU3xbSD5v7YchFxEZKrMs4ZnKOa-3zcQnLHum-uz84VswRlfJOKs1nX9fkOOO-rAVz4A=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRofJHZIFh72iIXFa3S_fXx7QoOKm5uyCXn09OT2H5fZh4meyXOXlCbWh-6JRXY7nNvKKOOkhGRurD4lEk5fswJYiqm=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTbZN8KLJ582wtbYq3HzSTpnA7xNNh3Fo_k-miBD91NwwLd9mP4BKf0nsxXsaXSSga5mlM_f-gtGTeGc1g-R_OlnyPYAw=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYSKZiFvpglPv7-6RxNUia36Wz4IGqY6-74AtFP3edz3ntyU8eMlmX5immEuBpMHcz6FnsXyFBvWb3rim-CT6SE5v4N4lw=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTjvTuKYHoC0JlplPy-M3pVcYkJkbwae0e2oU98fi8DgUk_hB_NjAww8PS59ibMM7Mo7fh0De2wLU_9AP9FDw=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYSfnrpTvzB1pcJnMD85WPwzmgIdRFsYHuWGxx5ISzQm3Y-DmvU08LijaO948r9ocLJSEzLm_k8jNn9XBJpB-FYniVA-Gw=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQaBmM0THm7k4fWDEIJWEtaMZ4C_V6tim8PyrnyLGTQPT1o_ZRPVeXx0Ulu6lNsXVKtveYEzAVuS_Xn7wkJWR384CptAQ=s2560')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQAVE74WLWKwN9JTJDufIduZEjpdl10PszJp9eRJaE09grjoRO98J7yhg59yRUppagwHcZwhazUIf2reqIKOXteqdLRQQ=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTHv7sAwHOD1IHMmJ3ar8NG646OWLIYW-yh0qKLwfO9KL3CtdadDMLDXtKKpRj0Rsa7kSmI0WgmQgxpjwy32jGbbBb4kw=s1600')",
-                               "url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTqjlcao1osxHREFpagcrceYTpNeVQ_pCfqws9aT840MAyBov9bIKBVX3hgunMWwVe8FeZu9AQdn-QuVhlQBEMUwdRPEQ=s1600')"
-                              ];
-                document.getElementById("random").style.backgroundImage=bigSize[randomWorld];
-            }
-            randombg();
-        </script>
+
+
+
+
+
+
+<!-- MainDivOverlay------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+            <img src="./img/HUD_Top.png" class="BgCover" style="pointer-events: none">
+            <div id="SiteTitleDiv">
+                <img src="./img/Title01.png" id="SiteTitle" style="pointer-events: none">
+            </div>
+            
+    </div>
+
 <!-- Botões------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
   </br>
-            <div id="NavBar">
+        <div id="NavBar" style="display: none;">
             <div id="NavBar_Bt01"></div>
             <a href="https://sites.google.com/prof.eter.faetec.rj.gov.br/13andar/apostilas"><div id="NavBar_Bt02"></div></a>
             <a href="https://sites.google.com/prof.eter.faetec.rj.gov.br/13andar/refer%C3%AAncias"><div id="NavBar_Bt03"></div></a>
             <div id="NavBar_Bt04"></div>
             <a href="https://sites.google.com/prof.eter.faetec.rj.gov.br/13andar/disclaimer"><div id="NavBar_Bt05"></div></a>
             <div id="NavBar_Bt06"></div>
-        </div>
+        </div>    
 
-        <style>
-            #NavBar{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTtThQW4aKgdIqaZMj6PG1nrO2ZZD6Gu9HzB2eBPP9gigPUlUc6XImOFzCwtuyocMVnyE2aWv3ulHgglzmj8cK7FSr-_g=s1600');
-                width: 100%;
-                height: 200px;
-                background-repeat: no-repeat;
-                background-position: bottom;
-                display: flex;
-                justify-content: center;
-            }
-            #NavBar_Bt01{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYSAfBjgzrPbr2OoFRDMVYtbb7C6fCG2ZvTOI9WwV8ng8Bdnc5orMrvR5shVQF49iU8NeQ8X8OcTyfHwyK-U3L3KU2TVZw=s1600');
-            }
-            #NavBar_Bt02{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRlIRamhkkLUSNm2_B909MK60l172gof0uEwpC_wo3bkjuMDl4Z50rDu45fyBdpm2eoyYReQES97ACZ1gq4SpohxtzT=s1600');
-            }
-            #NavBar_Bt02:hover{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQ14tDWjOtoNn9MGVBu0x72H42N65rGTNkfZ_sF0DcFWstf2r-I9h6dxxZN0MVsLlFZwCq0bW7q2Qvhrp1XGnjO7cxAuA=s1600');
-            }
-            #NavBar_Bt03{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYT7F4O5oR_osRny7cXlqhU210798mAip3SZd-_AFoMGYbjTVHY9ZGMscApPxKKTd0-OIwHyWwuknPwkRjRLY4HoJXJNkA=s1600');
-            }
-            #NavBar_Bt03:hover{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRTvWZve4Teu2LbFGUHtlW0e2JkpB331bvwNVLHmwfg-IwiIygM8BZtDb0dUhAuMHlRsxMAFifH_3osSMaFKKQLteXUcw=s1600');
-            }
-            #NavBar_Bt04{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRnUNVkiQTUTkvQ8CjWPzw07XHJvtVmnP0J-9KvJyUpDHBUoTrkQUdZvQjSd2_ZwJTah0ID-uQohGG8Ezg-OaRVaVC-rA=s1600');
-            }
-            /*#NavBar_Bt04:hover{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQapic8TLinp8ZRMZN3cIhb1EDVfQrFZVtXzemOkrDHzSX0vOc-4dnXdtN2BPTR4MQ9ZuDdtb_7c5lfb0fxlxZISMm3JA=s1600');
-            }*/
-            #NavBar_Bt05{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYRZmn4N8wtqMCPnlFw7VWd_kuYjq6qifkEzv36me8W5Iq0yAiBQjjm72EmKr2DrQOo4L-w3-_fGXFhfIV8fAi0pL3OeOQ=s1600');
-            }
-            #NavBar_Bt05:hover{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYTQfgFNOvbv6-ycUJM6LLsUmx4FfkYftD__MIOWJ87NDlDBoR0wGTcz9CW4ke3KxD-gX-a8ymhD4SqCbcUVmK8GmwFgQQ=s1600');
-            }
-            #NavBar_Bt06{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYS-HPMNYrqZ7zqmjxHghj5azfNYcYddzlBuy7IFmWclloCUOl53qhIJTHQ8NXm-DQ7Nfge3tNNd0sSUnJR9CBly8SQw=s1600');
-            }
-            /*#NavBar_Bt06:hover{
-                background-image: url('https://lh3.googleusercontent.com/drive-viewer/AEYmBYQg-OH4oitNNhEPn0m-88XB78mKUxmi5fh1bNN36Bj6JMzVjQYqsWc243hZL3K5R-Zn1Cun3w81N2c_pqyoXjZu3F2ExQ=s1600');
-            }*/
-            #NavBar_Bt01, #NavBar_Bt02, #NavBar_Bt03, #NavBar_Bt04, #NavBar_Bt05, #NavBar_Bt06{
-                background-repeat: no-repeat;
-                background-position: bottom;
-                width: 105px;
-                height: 100px;
-                display: block;
-                float: left;
-                background-size: cover;
-                margin-left: 30px;
-                margin-top: 10;
-            }
-            @media only screen and (max-width: 810px) {
-                #NavBar{
-                    display: none !important;
-                }
-            }
-
-            /*body:has(#NavBar){
-                overflow: hidden;
-            }*/
-        </style>
     </br>  
- <!-- Intro------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-    <p>Este é o 13º Andar.
-    Uma sala que desafia a lógica do espaço e tempo, existência e inexistência. Estamos agora em todos os lugares e nenhum ao mesmo tempo, viajando ininterruptamente dentro das improbabilidades da noção e conhecimento.
-    Meu nome é Jerry e eu lhe dou os parabéns por ter conseguido chegar aqui... 
-    ... Aceita um café?</p>
-      </hr>
- <!-- apostilas------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-    <p>
-      Artes Gráficas para Games 1
-      <a href="https://drive.google.com/file/d/1OwN7Pai8ac_CsmwB6PNtSkXBNhZs0OV_/view?usp=drive_link" target=”_blank”>1º trimestre</a>
-    </p>
-      <p>
-      Artes Gráficas para Games 2
-      1º trimestre
-    </p>
-      <p>
-      Artes Gráficas para Games 3
-      <a https://drive.google.com/file/d/1noiNvV7Fo81CxpDxh481cbYFhPZmMMuu/view?usp=drive_link" target=”_blank”>1º trimestre</a>
-    </p>
-      <p>
-      Game Design
-      <a href="https://drive.google.com/file/d/1MWEt_lmCZdrppME8W3NoK1XymVV5mm4n/view?usp=drive_link" target="_blank">1º trimestre</a>
-    </p>
-      <p>
-      Game Design 2
-      <a href="https://drive.google.com/file/d/1ngwDa9bLfxrE1mYyfgfUBXFJqqInSq3r/view?usp=drive_link" target=”_blank”>1º trimestre</a>
-      <a href="https://drive.google.com/file/d/158xc37PXXTFebD-_B8Kq0L_bfUjsAigj/view?usp=drive_link" target="_blank">Assets para a aula</a>
-    </p>
-    <p>
-      TecInfo (Informática)
-      <a href="https://drive.google.com/file/d/1MEILhVsOodxRKkyY-c3lAE-zcd1UxBXw/view?usp=drive_link" target="_blank">LibreOffice Impress</a>
-    </p>
-    <p>
-      TecInfo (Jogos)
-      <a href="https://drive.google.com/file/d/1QzNoXUJQW1KSFnPfqheIcOMALqDDEAae/view?usp=drive_link" target="_blank">1º trimestre</a>
-    </p>
+    
  <!-- Disclaimer------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
     <p>Disclaimer!
         I don't own or made any of the arts and media in this site, i just made the composition and coding of the site, the picture, sounds and animation credits are due to their own creators. 
@@ -181,5 +75,9 @@
         This site isn't built with lucrative meanings, only educational and inspirational intention for public school students.
         If the creator of any art in this site wish for me to remove them, I'll do it through proper contact.
     </p>
+
+    <!--SCRIPT_CALL_________________________________________________________________________________________________________________-->
+    <script type="text/javascript" src="js/MainScript.js" language="javascript"></script>
+
   </body>
 </html>
