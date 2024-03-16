@@ -154,7 +154,7 @@ p, h1, a{
 }
 
 .ApostilasItem h1{
-	font-size: 1.5vw;
+	font-size: calc(13px + 0.5vw);
 	margin-top: 20px;
 	text-align: center;
 	transition: font-size 2s;
