@@ -161,7 +161,7 @@ p, h1, a{
 }
 
 .ApostilasItem a{
-	margin-left: 1vw;
+	font-size: calc(12px + 0.5vw);
 	color: aqua;
 	font-size: 1.2vw;
 	display: block;
@@ -274,7 +274,7 @@ p, h1, a{
 }
 
 /* RESPONSIVIDADE LEGÍVEL----------------------------------------------------- */
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
 	.ApostilasItem h1, .ApostilasItem a{
 		font-size: 13px;
 		line-height: 15px;
