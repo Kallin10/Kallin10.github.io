@@ -82,6 +82,19 @@ p, h1, a{
 			  user-select: none; /* Non-prefixed version, currently
 									supported by Chrome, Edge, Opera and Firefox */}
 
+/*Underlay BG trick-------------------------------------------------------------------*/
+#OverlayHUDDecor{
+	background-image: 
+	linear-gradient(to top, transparent, #ff00842a), linear-gradient(to right, #00e1ff0e, #007bff2c, #f700ff10);
+		background-size: 100% 100%, 2000% 100%;
+		animation: move 10s infinite alternate;
+}
+
+@keyframes move {
+	from {background-position: center center, left center;}
+	to {background-position: center center, right center;}
+   }
+
 
 /* Página 1 - Introdução------------------------------------------------------ */
 #Page1_Intro{
@@ -91,7 +104,7 @@ p, h1, a{
 	top: 15%;
 	left: 15%;
 	min-height: 300px;	
-	transition: opacity 1s;
+	transition: top 2s;
 	display: block;
 }
 
@@ -133,11 +146,11 @@ p, h1, a{
 	width: 90vw;
 	height: 60vh;
 	position: absolute;
-	top: 15%;
+	top: -65%;
 	left: 5%;
 	min-height: 300px;	
-	transition: opacity 1s;
-	display: none;
+	transition: top 2s;
+	display: block;
 }
 
 #tns1 > .tns-item{
@@ -158,12 +171,13 @@ p, h1, a{
 	margin-top: 20px;
 	text-align: center;
 	transition: font-size 2s;
+	text-shadow: #35C6B1 0px 0px 5px, #00F0F0 0px 0px 10px, #28F9C8 0px 0px 15px, #0D10E1 0px 0px 20px, #BD2DFF 0px 0px 30px, #D728D4 0px 0px 40px, #FF2DDE 0px 0px 50px;
+	color: #FFFFFF;
 }
 
 .ApostilasItem a{
 	font-size: calc(12px + 0.5vw);
 	color: aqua;
-	font-size: 1.2vw;
 	display: block;
 	line-height: 2.2vw;
 	transition: font-size 2s;
@@ -171,15 +185,152 @@ p, h1, a{
 }
 
 .ApostilasTextBox{
-	background-color: #0006;
+	background-color: #0008;
 	margin-left: 5%;
 	margin-top: -27px;
 	width: 21.5vw;
 	height: 35vh;
 	border: 4px fuchsia double;
+	box-shadow: 0 0 10px 0.5px #ffffff7d, 0 0 10px 2px #ff00e396;
 	border-radius: 20px 5px 15px 15px;
 	overflow: hidden;
 	transition: height 2s;
+}
+
+/* Página 3 - Repositório------------------------------------------------------ */
+#Page3_Repositorio{
+	width: 90vw;
+	height: 60vh;
+	position: absolute;
+	top: -65%;
+	left: 5%;
+	min-height: 300px;	
+	transition: top 2s;
+	display: block;
+}
+
+#Repositorio_Img{
+	float: left;
+	margin: auto 11vw;
+	display: block;
+	height: 60vh;
+	width: 30vw;
+	max-height: 320px;
+	margin-right: 0px;
+}
+
+.RepositorioTextBox{
+	background-color: #0008;
+	margin: 5vh 0px;
+	width: 35.5vw;
+	height: 50vh;
+	border: 4px fuchsia double;
+	box-shadow: 0 0 10px 0.5px #ffffff7d, 0 0 10px 2px #ff00e396;
+	border-radius: 5px 20px 20px 5px;
+	overflow-y: scroll;
+	transition: height 2s;
+	padding-left: 15px;
+}
+
+.RepositorioTextBox h1{
+	color: rgb(255, 241, 201);
+	transform: scaleY(1.8);
+	-webkit-transform: scaleY(1.8);
+	font-size: calc(10px + 0.5vw);
+	margin-top: 20px;
+	text-shadow: #d43cd9 1px 1px 0, #fffae9 0px 0px 1px, #ffae1782 0px 0px 5px;
+}
+
+.RepositorioTextBox ul{
+	color: white;
+	margin-top: 20px;
+	transform: scaleY(1.2);
+	-webkit-transform: scaleY(1.2);
+}
+
+.RepositorioTextBox a{
+	color: #68dddd;
+	line-height: 1.5;
+	text-align: left;
+	text-decoration: underline;
+	font-size: calc(10px + 0.3vw);
+}
+
+/* Página 4 - Provas------------------------------------------------------ */
+#Page4_Provas{
+	width: 83vw;
+	height: 70vh;
+	position: absolute;
+	top: -65%;
+	left: 5%;
+	min-height: 300px;
+	transition: top 2s;
+	display: block;
+}
+
+#LinkProva01{
+	cursor: pointer;
+	border: 0;
+	width: 2%;
+	height: 14%;
+	background-color: #ff00009c;
+	display: block;
+	position: absolute;
+	top: 18%;
+	right: 26%;
+}
+
+#LinkProva02{
+	cursor: pointer;
+	border: 0;
+	width: 2%;
+	height: 6%;
+	background-color: #ff00009c;
+	display: block;
+	position: absolute;
+	top: 59%;
+	right: 25%;
+}
+
+/* Página 5 - Disclaimer------------------------------------------------------ */
+#Page5_Disclaimer{
+	width: 90vw;
+	height: 60vh;
+	position: absolute;
+	top: -65%;
+	left: 5%;
+	min-height: 300px;	
+	transition: top 2s;
+	display: block;
+}
+
+#DisclaimerTextBox{
+	background-color: #0008;
+	margin: auto;
+	width: 60vw;
+	height: 50vh;
+	border: 4px fuchsia double;
+	box-shadow: 0 0 10px 0.5px #ffffff7d, 0 0 10px 2px #ff00e396;
+	border-radius: 20px 20px 20px 20px;
+	overflow-y: scroll;
+	transition: height 2s;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+#DisclaimerTextBox p{
+	font-size: 15px;
+	color: white;
+	line-height: 25px;
+	transition: font-size 2s;
+}
+
+#DisclaimerTextBox h1{
+	font-size: 25px;
+	transform: scaleY(1.2);
+	-webkit-transform: scaleY(1.2);
+	text-shadow: 0 -1px 4px #DF0F0F, 0 -2px 10px #ff0078, 0 -10px 20px #ff56bd, 0 -18px 40px #FF7FE5, 2px 2px 6px rgba(255, 253, 253, 0);
+	color: #FF9B9B;
 }
 
 /* Botões----------------------------------------------------- */

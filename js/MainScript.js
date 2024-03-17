@@ -2,9 +2,12 @@
 var PageType = 1;
 var BGMusicOn = false;
 var JerryTalkID = 1;
+var randomWorldSFX = 1;
 // Random Background --------------------------------------------------------------------------------------------------------------------------------------------------
 function randombg(){
 	var randomWorld= Math.floor(Math.random() * 21) + 0;
+	randomWorldSFX = randomWorld;
+	//console.log(randomWorldSFX);
 	var backgroundChoices = ["url(./img/Background_01.gif)",
 							"url(./img/Background_02.gif)",
 							"url(./img/Background_03.gif)",
@@ -38,43 +41,43 @@ function PageChoose(){
 	audio.play();
 
 	if (PageType == 1) {
-		document.getElementById('Page1_Intro').style.display = 'block'; //Will show
-		document.getElementById('Page2_Apostilas').style.display = 'none'; //Will hide
-		document.getElementById('Page3_Repositorio').style.display = 'none'; //Will hide
-		document.getElementById('Page4_Provas').style.display = 'none'; //Will hide
-		document.getElementById('Page5_Disclaimer').style.display = 'none'; //Will hide
+		document.getElementById('Page1_Intro').style.top = '15%'; //Will show
+		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
+		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '-65%'; //Will hide
+		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title01.png)';
 	}
 	if (PageType == 2) {
-		document.getElementById('Page1_Intro').style.display = 'none'; //Will show
-		document.getElementById('Page2_Apostilas').style.display = 'block'; //Will hide
-		document.getElementById('Page3_Repositorio').style.display = 'none'; //Will hide
-		document.getElementById('Page4_Provas').style.display = 'none'; //Will hide
-		document.getElementById('Page5_Disclaimer').style.display = 'none'; //Will hide
-		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title02.png)';
+		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
+		document.getElementById('Page2_Apostilas').style.top = '15%'; //Will hide
+		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '-65%'; //Will hide
+		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
+		document.getElementById('SiteTitle').style.top = 'url(./img/Title02.png)';
 	}
 	if (PageType == 3) {
-		document.getElementById('Page1_Intro').style.display = 'none'; //Will show
-		document.getElementById('Page2_Apostilas').style.display = 'none'; //Will hide
-		document.getElementById('Page3_Repositorio').style.display = 'block'; //Will hide
-		document.getElementById('Page4_Provas').style.display = 'none'; //Will hide
-		document.getElementById('Page5_Disclaimer').style.display = 'none'; //Will hide
+		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
+		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
+		document.getElementById('Page3_Repositorio').style.top = '15%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '-65%'; //Will hide
+		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title03.png)';
 	}
 	if (PageType == 4) {
-		document.getElementById('Page1_Intro').style.display = 'none'; //Will show
-		document.getElementById('Page2_Apostilas').style.display = 'none'; //Will hide
-		document.getElementById('Page3_Repositorio').style.display = 'none'; //Will hide
-		document.getElementById('Page4_Provas').style.display = 'block'; //Will hide
-		document.getElementById('Page5_Disclaimer').style.display = 'none'; //Will hide
+		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
+		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
+		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '11%'; //Will hide
+		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title04.png)';
 	}
 	if (PageType == 5) {
-		document.getElementById('Page1_Intro').style.display = 'none'; //Will show
-		document.getElementById('Page2_Apostilas').style.display = 'none'; //Will hide
-		document.getElementById('Page3_Repositorio').style.display = 'none'; //Will hide
-		document.getElementById('Page4_Provas').style.display = 'none'; //Will hide
-		document.getElementById('Page5_Disclaimer').style.display = 'block'; //Will hide
+		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
+		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
+		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '-65%'; //Will hide
+		document.getElementById('Page5_Disclaimer').style.top = '15%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title05.png)';
 	}
 }
@@ -98,7 +101,7 @@ function ButtonChangePage3(){
 function ButtonChangePage4(){
 	//PageType = 4;
 	//PageChoose();
-	alert("Você aperta o botão, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?")
+	alert("Você aperta o botão da sala secreta, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?");
 }
 
 function ButtonChangePage5(){
@@ -108,15 +111,45 @@ function ButtonChangePage5(){
 
 function MusicOnPage6(){
 	PageChoose();
-	var audio = document.getElementById("BGMusic");
+	var BGMusic = document.getElementById("BGMusic");
+	var BGSFX01 = document.getElementById("BGSFX01");
+	var BGSFX02 = document.getElementById("BGSFX02");
+	var BGSFX03 = document.getElementById("BGSFX03");
+	var BGSFX04 = document.getElementById("BGSFX04");
+	var BGSFX05 = document.getElementById("BGSFX05");
 	if (BGMusicOn == false){
-		audio.volume = 0.3;
-		audio.play();
+		BGMusic.volume = 0.3;
+		BGMusic.play();
+		if(randomWorldSFX === 1 || randomWorldSFX === 10 || randomWorldSFX === 15 || randomWorldSFX === 16){
+			BGSFX01.play();
+			BGSFX01.volume = 0.5;
+		}
+		if(randomWorldSFX === 18 || randomWorldSFX === 19 || randomWorldSFX === 20){
+			BGSFX02.play();
+			BGSFX02.volume = 0.8;
+		}
+		if(randomWorldSFX === 5){
+			BGSFX03.play();
+			BGSFX03.volume = 0.7;
+		}
+		if(randomWorldSFX === 0 || randomWorldSFX === 17 || randomWorldSFX === 9 || randomWorldSFX === 11){
+			BGSFX04.play();
+			BGSFX04.volume = 0.6;
+		}
+		if(randomWorldSFX === 2 || randomWorldSFX === 12 || randomWorldSFX === 13 || randomWorldSFX === 14){
+			BGSFX05.play();
+			BGSFX05.volume = 0.3;
+		}
 		BGMusicOn = true;
 	}
 	else{
-		audio.pause();
-		audio.currentTime = 0;
+		BGMusic.pause();
+		BGSFX01.pause();
+		BGSFX02.pause();
+		BGSFX03.pause();
+		BGSFX04.pause();
+		BGSFX05.pause();
+		BGMusic.currentTime = 0;
 		BGMusicOn = false;
 	}
 }
@@ -165,4 +198,26 @@ function JerryTextPick() {
 	if (JerryTalkID == 13)
 		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Nikutori. O sabor é próximo a... aquilo que vocês humanos chamam de frango assado. ☕🍗";
 
+}
+
+// Provas com e sem senha --------------------------------------------------------------------------------------------------------------------------------------------------
+
+function Prova01(){
+	window.open('https://drive.google.com/file/d/1pzU0CQZB-pH0SZiMFsoipVEl-w-cAhlu/view?usp=drive_link', '_blank').focus();
+}
+
+function Prova02() {
+  const date = new Date();
+  const hour = date.getHours();
+  let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
+
+  if (password == "pudim" && hour == 15) {
+	window.open('https://drive.google.com/file/d/1pzU0CQZB-pH0SZiMFsoipVEl-w-cAhlu/view?usp=drive_link', '_blank').focus();
+  }
+  if (password == "coleira" && hour == 16) {
+	window.open('https://drive.google.com/file/d/1pzU0CQZB-pH0SZiMFsoipVEl-w-cAhlu/view?usp=drive_link', '_blank').focus();
+  }
+  else {
+	alert("Acesso negado!");
+  }
 }
