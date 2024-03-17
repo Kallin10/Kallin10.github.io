@@ -54,7 +54,7 @@ function PageChoose(){
 		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
 		document.getElementById('Page4_Provas').style.top = '-65%'; //Will hide
 		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
-		document.getElementById('SiteTitle').style.top = 'url(./img/Title02.png)';
+		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title02.png)';
 	}
 	if (PageType == 3) {
 		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
