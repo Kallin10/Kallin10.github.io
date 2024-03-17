@@ -126,11 +126,11 @@ function MusicOnPage6(){
 		}
 		if(randomWorldSFX === 18 || randomWorldSFX === 19 || randomWorldSFX === 20){
 			BGSFX02.play();
-			BGSFX02.volume = 0.8;
+			BGSFX02.volume = 0.6;
 		}
 		if(randomWorldSFX === 5){
 			BGSFX03.play();
-			BGSFX03.volume = 0.7;
+			BGSFX03.volume = 0.6;
 		}
 		if(randomWorldSFX === 0 || randomWorldSFX === 17 || randomWorldSFX === 9 || randomWorldSFX === 11){
 			BGSFX04.play();
