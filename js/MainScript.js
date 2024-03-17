@@ -44,7 +44,7 @@ function PageChoose(){
 		document.getElementById('Page1_Intro').style.top = '15%'; //Will show
 		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
 		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
-		document.getElementById('Page4_Provas').style.top = '-65%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '-75%'; //Will hide
 		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title01.png)';
 	}
@@ -52,7 +52,7 @@ function PageChoose(){
 		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
 		document.getElementById('Page2_Apostilas').style.top = '15%'; //Will hide
 		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
-		document.getElementById('Page4_Provas').style.top = '-65%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '-75%'; //Will hide
 		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title02.png)';
 	}
@@ -60,7 +60,7 @@ function PageChoose(){
 		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
 		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
 		document.getElementById('Page3_Repositorio').style.top = '15%'; //Will hide
-		document.getElementById('Page4_Provas').style.top = '-65%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '-75%'; //Will hide
 		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title03.png)';
 	}
@@ -76,7 +76,7 @@ function PageChoose(){
 		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
 		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
 		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
-		document.getElementById('Page4_Provas').style.top = '-65%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '-75%'; //Will hide
 		document.getElementById('Page5_Disclaimer').style.top = '15%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title05.png)';
 	}
