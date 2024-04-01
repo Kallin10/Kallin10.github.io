@@ -268,28 +268,57 @@ p, h1, a{
 	display: block;
 }
 
-#LinkProva01{
+#LinkProva01, #LinkProva02, #LinkProva03, #LinkProva04, #LinkProva05, #LinkProva06{
 	cursor: pointer;
 	border: 0;
-	width: 2%;
-	height: 14%;
-	background-color: #ff00009c;
+	/*background-color: #ff00009c;*/
+	background: none;
 	display: block;
 	position: absolute;
-	top: 18%;
-	right: 26%;
+}
+
+#LinkProva01{
+	width: 2.7%;
+	height: 4%;
+	top: 63.5%;
+	right: 65.2%;
 }
 
 #LinkProva02{
-	cursor: pointer;
-	border: 0;
+	width: 1.9%;
+	height: 3.5%;
+	top: 81.5%;
+	right: 25.5%;
+}
+
+#LinkProva03{
+	width: 1.5%;
+	height: 5%;
+	top: 87%;
+	right: 33%;
+}
+
+#LinkProva04{
 	width: 2%;
+	height: 7%;
+	top: 31%;
+	right: 60.5%;
+}
+
+
+#LinkProva05{
+	width: 2.5%;
+	height: 4.4%;
+	top: 62%;
+	right: 50%;
+}
+
+
+#LinkProva06{
+	width: 2.5%;
 	height: 6%;
-	background-color: #ff00009c;
-	display: block;
-	position: absolute;
-	top: 59%;
-	right: 25%;
+	top: 70%;
+	right: 39%;
 }
 
 /* Página 5 - Disclaimer------------------------------------------------------ */

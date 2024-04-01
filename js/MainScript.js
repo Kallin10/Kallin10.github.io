@@ -99,9 +99,9 @@ function ButtonChangePage3(){
 }
 
 function ButtonChangePage4(){
-	//PageType = 4;
-	//PageChoose();
-	alert("Você aperta o botão da sala secreta, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?");
+	PageType = 4;
+	PageChoose();
+	//alert("Você aperta o botão da sala secreta, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?");
 }
 
 function ButtonChangePage5(){
@@ -202,22 +202,53 @@ function JerryTextPick() {
 
 // Provas com e sem senha --------------------------------------------------------------------------------------------------------------------------------------------------
 
-function Prova01(){
-	window.open('https://drive.google.com/file/d/1pzU0CQZB-pH0SZiMFsoipVEl-w-cAhlu/view?usp=drive_link', '_blank').focus();
+function Prova01(){ //TecInfo Informática
+	window.open('https://drive.google.com/file/d/1CRfclpGRAdwgkT0KDMz7y7evXQTpWvuz/view?usp=drive_link', '_blank').focus();
 }
 
-function Prova02() {
+function Prova02(){ //TecInfo Jogos
+	window.open('https://drive.google.com/file/d/1IkdDMjpST7IBb1XHTtLjD8e9iY_2PIFo/view?usp=drive_link', '_blank').focus();
+}
+
+function Prova03(){ //GD1
+	window.open('https://drive.google.com/file/d/1Glj-WTbZAIRruyZGXY0-0PC3lAT93SsF/view?usp=drive_link', '_blank').focus();
+}
+
+function Prova04(){ //AGG3
+	window.open('https://drive.google.com/file/d/1IooDU-SuGRFIVZC92RiNnqqRT5fCCUJG/view?usp=drive_link', '_blank').focus();
+}
+
+function Prova05() { //AGG1
   const date = new Date();
   const hour = date.getHours();
   let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
 
-  if (password == "pudim" && hour == 15) {
-	window.open('https://drive.google.com/file/d/1pzU0CQZB-pH0SZiMFsoipVEl-w-cAhlu/view?usp=drive_link', '_blank').focus();
+  if (password == "setsugetsuka") {
+	window.open('https://drive.google.com/file/d/1JA4JCdR3NSHuRXPB45k2iiha2Ekp7tuJ/view?usp=drive_link', '_blank').focus();
   }
-  if (password == "coleira" && hour == 16) {
-	window.open('https://drive.google.com/file/d/1pzU0CQZB-pH0SZiMFsoipVEl-w-cAhlu/view?usp=drive_link', '_blank').focus();
+  if (password == "picasso" && hour >= 7 && hour <= 8) {
+	window.open('https://drive.google.com/file/d/1JA4JCdR3NSHuRXPB45k2iiha2Ekp7tuJ/view?usp=drive_link', '_blank').focus();
   }
   else {
 	alert("Acesso negado!");
   }
 }
+
+function Prova06() { //GD2
+	const date = new Date();
+	const hour = date.getHours();
+	let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
+  
+	if (password == "setsugetsuka") {
+		window.open('https://drive.google.com/file/d/1almQxW_eZ_AlJOJYzFvLLVm2hsjoiQ38/view?usp=drive_link', '_blank').focus();
+	}
+	if (password == "pudim" && hour >= 9 && hour <= 10) {
+		window.open('https://drive.google.com/file/d/1almQxW_eZ_AlJOJYzFvLLVm2hsjoiQ38/view?usp=drive_link', '_blank').focus();
+	}
+	if (password == "cerberus" && hour >= 13 && hour <= 15) {
+		window.open('https://drive.google.com/file/d/1almQxW_eZ_AlJOJYzFvLLVm2hsjoiQ38/view?usp=drive_link', '_blank').focus();
+	}
+	else {
+	  alert("Acesso negado!");
+	}
+  }
