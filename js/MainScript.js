@@ -203,7 +203,7 @@ function JerryTextPick() {
 // Provas com e sem senha --------------------------------------------------------------------------------------------------------------------------------------------------
 
 function Prova01(){ //TecInfo Informática
-	window.open('https://drive.google.com/file/d/1UCwCQTciRjrK1QwQHitVJCgDPmMGJ11l/view?usp=drivesdk', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1CRfclpGRAdwgkT0KDMz7y7evXQTpWvuz/view?usp=drive_link', '_blank').focus();
 }
 
 function Prova02(){ //TecInfo Jogos
