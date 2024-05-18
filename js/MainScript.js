@@ -54,31 +54,44 @@ function PageChoose(){
 		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
 		document.getElementById('Page4_Provas').style.top = '-75%'; //Will hide
 		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
+		document.getElementById('Page7_HalldaFama').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title02.png)';
 	}
 	if (PageType == 3) {
-		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
+		document.getElementById('Page1_Intro').style.top = '-65%'; //Will hide
 		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
-		document.getElementById('Page3_Repositorio').style.top = '15%'; //Will hide
+		document.getElementById('Page3_Repositorio').style.top = '15%'; //Will show
 		document.getElementById('Page4_Provas').style.top = '-75%'; //Will hide
 		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
+		document.getElementById('Page7_HalldaFama').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title03.png)';
 	}
 	if (PageType == 4) {
-		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
+		document.getElementById('Page1_Intro').style.top = '-65%'; //Will hide
 		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
 		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
-		document.getElementById('Page4_Provas').style.top = '11%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '11%'; //Will show
 		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
+		document.getElementById('Page7_HalldaFama').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title04.png)';
 	}
 	if (PageType == 5) {
-		document.getElementById('Page1_Intro').style.top = '-65%'; //Will show
+		document.getElementById('Page1_Intro').style.top = '-65%'; //Will hide
 		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
 		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
 		document.getElementById('Page4_Provas').style.top = '-75%'; //Will hide
-		document.getElementById('Page5_Disclaimer').style.top = '15%'; //Will hide
+		document.getElementById('Page5_Disclaimer').style.top = '15%'; //Will show
+		document.getElementById('Page7_HalldaFama').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title05.png)';
+	}
+	if (PageType == 7) {
+		document.getElementById('Page1_Intro').style.top = '-65%'; //Will hide
+		document.getElementById('Page2_Apostilas').style.top = '-65%'; //Will hide
+		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
+		document.getElementById('Page4_Provas').style.top = '-75%'; //Will hide
+		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
+		document.getElementById('Page7_HalldaFama').style.top = '15%'; //Will show
+		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title06.png)';
 	}
 }
 
@@ -152,6 +165,13 @@ function MusicOnPage6(){
 		BGMusic.currentTime = 0;
 		BGMusicOn = false;
 	}
+	
+}
+
+function ButtonChangePage7(){
+	//PageType = 7;
+	//PageChoose();
+	alert("Sala em Construção.");
 }
 
 // Carrossel Apostilas --------------------------------------------------------------------------------------------------------------------------------------------------
@@ -174,29 +194,29 @@ function JerryTextPick() {
 	if (JerryTalkID == 1)
 		document.getElementById('JerryDialogText').innerText = "Bem vindo ao 13º andar. Espera... eu já te disse isso.";
 	if (JerryTalkID == 2)
-		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Xmazup-8. Ele tem um suave toque daquele negócio que vocês chamam de amêndoa e cassis. ☕";
+		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Xmazup-8. Ele tem um suave toque daquele negócio que vocês chamam de amêndoa, cassis e gasolina. ☕";
 	if (JerryTalkID == 3)
-		document.getElementById('JerryDialogText').innerText = "Eu não recomendo o café de Slonorg. Eles são pré-digeridos pela besta milenar Blot por 20 anos e depois vendidos sob a luz do terceiro sol de 40º. O gosto não é bom para vocês humanos. ☕☠️";
+		document.getElementById('JerryDialogText').innerText = "Eu não recomendo o café de Slonorg. Eles são pré-digeridos pela besta milenar Blot por 20 anos e depois secados sob a luz do terceiro sol vermelho. Só seres com 3 estômagos suportam o sabor. ☕☠️";
 	if (JerryTalkID == 4)
 		document.getElementById('JerryDialogText').innerText = "Há 5 eons atrás o universo estava ainda com pouca expansão física, e então os exploradores temporais estavam na moda. O conceito do gerador dimensional do 13º andar surgiu nessa época. Fascinante, não? 🚀";
 	if (JerryTalkID == 5)
-		document.getElementById('JerryDialogText').innerText = "Como eu vim parar aqui? Assim como você. Eu descobri um endereço secreto proibido e fui ver o que era. Mas na minha época não haviam portas de saída, só de entrada... Então eu fiquei por aqui como zelador, e agora não estou mais com vontade de partir. 🏠";
+		document.getElementById('JerryDialogText').innerText = "Como eu vim parar aqui? Assim como você. Eu descobri um endereço estranho e fui ver o que era. Mas na minha época não haviam portas de saída aqui, só de entrada... Então eu tornei esse lugar minha casa e decidi permanecer aqui. 🏠";
 	if (JerryTalkID == 6)
-		document.getElementById('JerryDialogText').innerText = "Se o 13º Andar vai até o mundo dos sonhos? Não. Eu desconfigurei essa opção do menu porque odeio corujas dimensionais. 🦉";
+		document.getElementById('JerryDialogText').innerText = "Se o 13º Andar vai também até o mundo dos sonhos? Não. Eu desconfigurei essa opção do menu porque odeio corujas dimensionais. 🦉";
 	if (JerryTalkID == 7)
-		document.getElementById('JerryDialogText').innerText = "Se eu gosto de jogos? Em minha terra natal, Rumblafit, meu jogo favorito era me sentar com todos ao redor de uma tela de imagens enquanto tomávamos café. O último a dormir ganhava o desafio e podia mudar o canal de imagens, mas nosso café era tão forte que esses desafios ultrapassavam 5 dias (nunca me derrotaram nesse jogo). ☕";
+		document.getElementById('JerryDialogText').innerText = "Se eu gosto de jogos? Em minha terra natal, Rumblafit, tínhamos o jogo dos 100 anos. Era um jogo de resistência sobre quem aguentava mais tempo acordado, e eu era campeão na modalidade com cafeína. ☕";
 	if (JerryTalkID == 8)
-		document.getElementById('JerryDialogText').innerText = "Vocês da terra tem um conceito engraçado chamado navio de madeira. Praticamente uma tábua gigante boiando com sorte até a próxima cidade... Não entendo por quê não preferem usar os propulsores anti-gravidade de Neox para flutuar sobre a água, muito mais estáveis. 🚀";
+		document.getElementById('JerryDialogText').innerText = "O botão do troféu? Ele apareceu uma noite e tem muito barulho vindo agora de uma nova porta lacrada. Acho que vai surgir uma coisa legal dali de dentro. 🏆";
 	if (JerryTalkID == 9)
-		document.getElementById('JerryDialogText').innerText = "Os escritos antigos na prateleira de apostilas? Não sei quem deixou ali, mas ás vezes novos surgem sem aviso. Deve haver algum gremlin escondido nesse lugar que fica mexendo neles quando vou dormir. 👻";
+		document.getElementById('JerryDialogText').innerText = "Os escritos antigos na prateleira de apostilas? Não sei quem deixou eles ali, mas ás vezes novos surgem sem aviso. Deve haver algum fantasma nesse lugar que fica mexendo nessa sessão enquanto estou dormindo. 👻";
 	if (JerryTalkID == 10)
-		document.getElementById('JerryDialogText').innerText = "O quê é a sala secreta? Nem eu vou na sala secreta. O botão raramente funciona, e quando funciona, coisas ruins acontecem como uma música infernal começando a tocar sem parar lá dentro... ☠️";
+		document.getElementById('JerryDialogText').innerText = "O quê é a sala secreta? Nem eu vou na sala secreta. O botão raramente funciona, e quando funciona, coisas ruins acontecem lá dentro, como pessoas de repente chorando enquanto uma música infernal começa a tocar sem parar... ☠️";
 	if (JerryTalkID == 11)
 		document.getElementById('JerryDialogText').innerText = "O repositório é uma área em que nossos visitantes mais assíduos deixam alguns materiais de estudo. Bons garotos. Será que no futuro também haverá algo seu ali para eu ler? 📚";
 	if (JerryTalkID == 12)
 		document.getElementById('JerryDialogText').innerText = "*Fui no banheiro, volto logo* 🚽";
 	if (JerryTalkID == 13)
-		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Nikutori. O sabor é próximo a... aquilo que vocês humanos chamam de frango assado. ☕🍗";
+		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Nikutori. Alguns dizem que o gosto se parece... com algo que vocês humanos chamam de frango frito. ☕🍗";
 
 }
 

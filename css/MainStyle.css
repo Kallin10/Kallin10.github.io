@@ -362,6 +362,18 @@ p, h1, a{
 	color: #FF9B9B;
 }
 
+/* Página 7 - HalldaFama------------------------------------------------------ */
+#Page7_HalldaFama{
+	width: 90vw;
+	height: 60vh;
+	position: absolute;
+	top: -65%;
+	left: 5%;
+	min-height: 300px;	
+	transition: top 2s;
+	display: block;
+}
+
 /* Botões----------------------------------------------------- */
 
 
@@ -381,7 +393,7 @@ p, h1, a{
 	background-size: 110% 180%;
   	margin-left: -15px;
 }
-#NavBar_Bt01, #NavBar_Bt02, #NavBar_Bt03, #NavBar_Bt04, #NavBar_Bt05, #NavBar_Bt06{
+#NavBar_Bt01, #NavBar_Bt02, #NavBar_Bt03, #NavBar_Bt04, #NavBar_Bt05, #NavBar_Bt06, #NavBar_Bt07{
 	display: block;
 	min-width: 70px;
 	margin: 10px 15px;
@@ -451,6 +463,16 @@ p, h1, a{
 }
 #NavBar_Bt06:active{
 	background-image: url('../img/Nav_HUD06_Press.png');
+}
+
+#NavBar_Bt07{
+	background-image: url('../img/Nav_HUD07_Off.png');
+}
+#NavBar_Bt07:hover{
+	background-image: url('../img/Nav_HUD07_On.png');
+}
+#NavBar_Bt07:active{
+	background-image: url('../img/Nav_HUD07_Press.png');
 }
 
 /* RESPONSIVIDADE LEGÍVEL----------------------------------------------------- */
