@@ -46,6 +46,7 @@ function PageChoose(){
 		document.getElementById('Page3_Repositorio').style.top = '-65%'; //Will hide
 		document.getElementById('Page4_Provas').style.top = '-75%'; //Will hide
 		document.getElementById('Page5_Disclaimer').style.top = '-65%'; //Will hide
+		document.getElementById('Page7_HalldaFama').style.top = '-65%'; //Will hide
 		document.getElementById('SiteTitle').style.backgroundImage = 'url(./img/Title01.png)';
 	}
 	if (PageType == 2) {
@@ -169,9 +170,8 @@ function MusicOnPage6(){
 }
 
 function ButtonChangePage7(){
-	//PageType = 7;
-	//PageChoose();
-	alert("Sala em Construção.");
+	PageType = 7;
+	PageChoose();
 }
 
 // Carrossel Apostilas --------------------------------------------------------------------------------------------------------------------------------------------------
