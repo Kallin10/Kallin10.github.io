@@ -113,9 +113,9 @@ function ButtonChangePage3(){
 }
 
 function ButtonChangePage4(){
-	//PageType = 4;
-	//PageChoose();
-	alert("Você aperta o botão da sala secreta, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?");
+	PageType = 4;
+	PageChoose();
+	//alert("Você aperta o botão da sala secreta, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?");
 }
 
 function ButtonChangePage5(){
@@ -223,35 +223,35 @@ function JerryTextPick() {
 // Provas com e sem senha --------------------------------------------------------------------------------------------------------------------------------------------------
 
 function Prova01(){ //TecInfo Informática
-	window.open('https://drive.google.com/file/d/1QRc-zcbat3ftMi5KQoPfIksslnIp88Mg/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1lE-D4wY4b_5IozsmS6OqJIm6nouMogOf/view?usp=drive_link', '_blank').focus();
 }
 
 function Prova02(){ //TecInfo Jogos
-	window.open('https://drive.google.com/file/d/1WdYpX9Q1D3gMko_6xxk6xKzTmSjcwXNe/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1ufZG27lmH5xPxj1-IZovqrnIdzqeeCzl/view?usp=drive_link', '_blank').focus();
 }
 
 function Prova03(){ //GD1
-	window.open('https://drive.google.com/file/d/1RucJMq2IgGZiyjelC8613i3Kr9A0G8nb/view?usp=drive_link', '_blank').focus();
+	//window.open('https://drive.google.com/file/d/1RucJMq2IgGZiyjelC8613i3Kr9A0G8nb/view?usp=drive_link', '_blank').focus();
 }
 
 function Prova04(){ //AGG3
-	window.open('https://drive.google.com/file/d/14RgXko37JvKtyBmTGl4Q3IBuf1C2wbCs/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1DS49FzwbBxGFbP0aLo_MeXP9OUJv42Oe/view?usp=drive_link', '_blank').focus();
 }
 
 function Prova05() { //AGG1
-  const date = new Date();
-  const hour = date.getHours();
-  let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
+  //const date = new Date();
+  //const hour = date.getHours();
+  //let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
 
-  if (password == "setsugetsuka") {
-	window.open('https://drive.google.com/file/d/1f1KUDaxSsfae1ltnUsRX6uXl3kEE677s/view?usp=drive_link', '_blank').focus();
-  }
-  if (password == "batata" && hour >= 7 && hour <= 8) {
-	window.open('https://drive.google.com/file/d/1f1KUDaxSsfae1ltnUsRX6uXl3kEE677s/view?usp=drive_link', '_blank').focus();
-  }
-  else {
-	alert("Acesso negado!");
-  }
+  //if (password == "setsugetsuka") {
+	window.open('https://drive.google.com/file/d/1A9WyE1wIWcupUuiahGTfIrjZhPBspnWj/view?usp=drive_link', '_blank').focus();
+  //}
+  //if (password == "batata" && hour >= 7 && hour <= 8) {
+	//window.open('https://drive.google.com/file/d/1f1KUDaxSsfae1ltnUsRX6uXl3kEE677s/view?usp=drive_link', '_blank').focus();
+  //}
+  //else {
+	//alert("Acesso negado!");
+  //}
 }
 
 function Prova06() { //GD2
@@ -260,13 +260,13 @@ function Prova06() { //GD2
 	let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
   
 	if (password == "setsugetsuka") {
-		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
+		window.open('https://drive.google.com/file/d/1Ux18Q3BlvoL8KDi3XdbhBLX5wjiBpHKu/view?usp=drive_link', '_blank').focus();
 	}
-	if (password == "pulapula" && hour >= 9 && hour <= 10) {
-		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
+	if (password == "abismo" && hour >= 9 && hour <= 10) {
+		window.open('https://drive.google.com/file/d/1Ux18Q3BlvoL8KDi3XdbhBLX5wjiBpHKu/view?usp=drive_link', '_blank').focus();
 	}
-	if (password == "porfavor" && hour >= 13 && hour <= 15) {
-		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
+	if (password == "caramelo" && hour >= 13 && hour <= 15) {
+		window.open('https://drive.google.com/file/d/1Ux18Q3BlvoL8KDi3XdbhBLX5wjiBpHKu/view?usp=drive_link', '_blank').focus();
 	}
 	else {
 	  alert("Acesso negado!");
