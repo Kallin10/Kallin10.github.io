@@ -206,7 +206,7 @@ function JerryTextPick() {
 	if (JerryTalkID == 7)
 		document.getElementById('JerryDialogText').innerText = "Se eu gosto de jogos? Em minha terra natal, Rumblafit, tínhamos o jogo dos 100 anos. Era um jogo de resistência sobre quem aguentava mais tempo acordado, e eu era campeão na modalidade com cafeína. ☕";
 	if (JerryTalkID == 8)
-		document.getElementById('JerryDialogText').innerText = "O botão do troféu? Ele apareceu uma noite e tem muito barulho vindo agora de uma nova porta lacrada. Acho que vai surgir uma coisa legal dali de dentro. 🏆";
+		document.getElementById('JerryDialogText').innerText = "O botão do troféu? É nossa sala de exibição de trabalhos bem avaliados. Demora um pouco, mas todo ano surgem novas áreas ali. 🏆";
 	if (JerryTalkID == 9)
 		document.getElementById('JerryDialogText').innerText = "Os escritos antigos na prateleira de apostilas? Não sei quem deixou eles ali, mas ás vezes novos surgem sem aviso. Deve haver algum fantasma nesse lugar que fica mexendo nessa sessão enquanto estou dormindo. 👻";
 	if (JerryTalkID == 10)
@@ -216,8 +216,7 @@ function JerryTextPick() {
 	if (JerryTalkID == 12)
 		document.getElementById('JerryDialogText').innerText = "*Fui no banheiro, volto logo* 🚽";
 	if (JerryTalkID == 13)
-		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Nikutori. Alguns dizem que o gosto se parece... com algo que vocês humanos chamam de frango frito. ☕🍗";
-
+		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Nikadori. Alguns dizem que o gosto se parece... com algo que vocês humanos chamam de frango frito. ☕🍗";
 }
 
 // Provas com e sem senha --------------------------------------------------------------------------------------------------------------------------------------------------
