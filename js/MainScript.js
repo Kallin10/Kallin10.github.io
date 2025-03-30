@@ -194,19 +194,19 @@ function JerryTextPick() {
 	if (JerryTalkID == 1)
 		document.getElementById('JerryDialogText').innerText = "Bem vindo ao 13º andar. Espera... eu já te disse isso.";
 	if (JerryTalkID == 2)
-		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Xmazup-8. Ele tem um suave toque daquele negócio que vocês chamam de amêndoa, cassis e gasolina. ☕";
+		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Xmazup-8. Ele tem um suave toque daquele negócio que vocês chamam de amêndoa, finalizada com gasolina. ☕";
 	if (JerryTalkID == 3)
-		document.getElementById('JerryDialogText').innerText = "Eu não recomendo o café de Slonorg. Eles são pré-digeridos pela besta milenar Blot por 20 anos e depois secados sob a luz do terceiro sol vermelho. Só seres com 3 estômagos suportam o sabor. ☕☠️";
+		document.getElementById('JerryDialogText').innerText = "Eu não recomendo o café de Slonorg. Eles são pré-digeridos pela besta milenar Blot por 20 anos e depois secados sob a luz do terceiro sol vermelho. Mas talvez só seres com 3 estômagos suportem o sabor. ☕☠️";
 	if (JerryTalkID == 4)
 		document.getElementById('JerryDialogText').innerText = "Há 5 eons atrás o universo estava ainda com pouca expansão física, e então os exploradores temporais estavam na moda. O conceito do gerador dimensional do 13º andar surgiu nessa época. Fascinante, não? 🚀";
 	if (JerryTalkID == 5)
-		document.getElementById('JerryDialogText').innerText = "Como eu vim parar aqui? Assim como você. Eu descobri um endereço estranho e fui ver o que era. Mas na minha época não haviam portas de saída aqui, só de entrada... Então eu tornei esse lugar minha casa e decidi permanecer aqui. 🏠";
+		document.getElementById('JerryDialogText').innerText = "Como eu vim parar aqui? Assim como você. Eu descobri um endereço estranho e fui ver o que era. Mas na minha época não haviam portas de saída aqui, só de entrada... Então eu passei a morar aqui. 🏠";
 	if (JerryTalkID == 6)
 		document.getElementById('JerryDialogText').innerText = "Se o 13º Andar vai também até o mundo dos sonhos? Não. Eu desconfigurei essa opção do menu porque odeio corujas dimensionais. 🦉";
 	if (JerryTalkID == 7)
 		document.getElementById('JerryDialogText').innerText = "Se eu gosto de jogos? Em minha terra natal, Rumblafit, tínhamos o jogo dos 100 anos. Era um jogo de resistência sobre quem aguentava mais tempo acordado, e eu era campeão na modalidade com cafeína. ☕";
 	if (JerryTalkID == 8)
-		document.getElementById('JerryDialogText').innerText = "O botão do troféu? É nossa sala de exibição de trabalhos bem avaliados. Demora um pouco, mas todo ano surgem novas áreas ali. 🏆";
+		document.getElementById('JerryDialogText').innerText = "O botão do troféu? É nossa sala de exibição de trabalhos bem avaliados. Demora um pouco, mas todo ano surgem novas áreas dentro dele. 🏆";
 	if (JerryTalkID == 9)
 		document.getElementById('JerryDialogText').innerText = "Os escritos antigos na prateleira de apostilas? Não sei quem deixou eles ali, mas ás vezes novos surgem sem aviso. Deve haver algum fantasma nesse lugar que fica mexendo nessa sessão enquanto estou dormindo. 👻";
 	if (JerryTalkID == 10)
@@ -216,7 +216,7 @@ function JerryTextPick() {
 	if (JerryTalkID == 12)
 		document.getElementById('JerryDialogText').innerText = "*Fui no banheiro, volto logo* 🚽";
 	if (JerryTalkID == 13)
-		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Nikadori. Alguns dizem que o gosto se parece... com algo que vocês humanos chamam de frango frito. ☕🍗";
+		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Nikadori. Alguns de vocês dizem que o gosto se parece... com algo chamado frango frito. ☕🍗";
 }
 
 // Provas com e sem senha --------------------------------------------------------------------------------------------------------------------------------------------------
