@@ -113,9 +113,9 @@ function ButtonChangePage3(){
 }
 
 function ButtonChangePage4(){
-	//PageType = 4;
-	//PageChoose();
-	alert("Você aperta o botão da sala secreta, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?");
+	PageType = 4;
+	PageChoose();
+	//alert("Você aperta o botão da sala secreta, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?");
 }
 
 function ButtonChangePage5(){
