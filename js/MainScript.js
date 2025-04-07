@@ -251,19 +251,19 @@ function Prova04() { //GD2
 	let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
   
 	if (password == "setsugetsuka") {
-		window.open('https://drive.google.com/file/d/1almQxW_eZ_AlJOJYzFvLLVm2hsjoiQ38/view?usp=drive_link', '_blank').focus();
+		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
 	}
 	if (password == "amarelo" && hour >= 7 && hour <= 8) {
-		window.open('https://drive.google.com/file/d/1almQxW_eZ_AlJOJYzFvLLVm2hsjoiQ38/view?usp=drive_link', '_blank').focus();
+		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
 	}
 	if (password == "grama" && hour >= 10 && hour <= 11) {
-		window.open('https://drive.google.com/file/d/1almQxW_eZ_AlJOJYzFvLLVm2hsjoiQ38/view?usp=drive_link', '_blank').focus();
+		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
 	}
 	if (password == "janela" && hour >= 13 && hour <= 14) {
-		window.open('https://drive.google.com/file/d/1almQxW_eZ_AlJOJYzFvLLVm2hsjoiQ38/view?usp=drive_link', '_blank').focus();
+		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
 	}
 	if (password == "foguete" && hour >= 15 && hour <= 16) {
-		window.open('https://drive.google.com/file/d/1almQxW_eZ_AlJOJYzFvLLVm2hsjoiQ38/view?usp=drive_link', '_blank').focus();
+		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
 	}
 	else {
 	  alert("Acesso negado!");
