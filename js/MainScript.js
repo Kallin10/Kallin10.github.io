@@ -222,11 +222,11 @@ function JerryTextPick() {
 // Provas com e sem senha --------------------------------------------------------------------------------------------------------------------------------------------------
 
 function Prova01(){ //AGG3
-	window.open('https://drive.google.com/file/d/1IooDU-SuGRFIVZC92RiNnqqRT5fCCUJG/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1DsX3KFLiwvB1OTgKtbXP3lNVH9_q6r92/view?usp=drive_link', '_blank').focus();
 }
 
 function Prova02(){ //GD1
-	window.open('https://drive.google.com/file/d/1Glj-WTbZAIRruyZGXY0-0PC3lAT93SsF/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1OE9b5hHrmiwPxAJTvdPJVIzxR71wMqFA/view?usp=drive_link', '_blank').focus();
 }
 
 function Prova03() { //AGG1
@@ -235,10 +235,10 @@ function Prova03() { //AGG1
   let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
 
   if (password == "setsugetsuka") {
-	window.open('https://drive.google.com/file/d/1JA4JCdR3NSHuRXPB45k2iiha2Ekp7tuJ/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1SnYSWvJFMzqkidksZiijkTYOXpcXEPAV/view?usp=drive_link', '_blank').focus();
   }
   if (password == "imagine" && hour >= 13 && hour <= 15) {
-	window.open('https://drive.google.com/file/d/1JA4JCdR3NSHuRXPB45k2iiha2Ekp7tuJ/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1SnYSWvJFMzqkidksZiijkTYOXpcXEPAV/view?usp=drive_link', '_blank').focus();
   }
   else {
 	alert("Acesso negado!");
