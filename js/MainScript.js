@@ -113,9 +113,9 @@ function ButtonChangePage3(){
 }
 
 function ButtonChangePage4(){
-	//PageType = 4;
-	//PageChoose();
-	alert("Você aperta o botão da sala secreta, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?");
+	PageType = 4;
+	PageChoose();
+	//alert("Você aperta o botão da sala secreta, mas nada acontece além de uma risada sinistra ao fundo... Será que foi o Jerry?");
 }
 
 function ButtonChangePage5(){
@@ -217,16 +217,17 @@ function JerryTextPick() {
 		document.getElementById('JerryDialogText').innerText = "*Fui no banheiro, volto logo* 🚽";
 	if (JerryTalkID == 13)
 		document.getElementById('JerryDialogText').innerText = "Eu estou fazendo café, você quer um pouco? Esses grãos foram comprados no planeta Nikadori. Alguns de vocês dizem que o gosto se parece... com algo chamado frango frito. ☕🍗";
+
 }
 
 // Provas com e sem senha --------------------------------------------------------------------------------------------------------------------------------------------------
 
 function Prova01(){ //AGG3
-	window.open('https://drive.google.com/file/d/1DsX3KFLiwvB1OTgKtbXP3lNVH9_q6r92/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/14RgXko37JvKtyBmTGl4Q3IBuf1C2wbCs/view?usp=drive_link', '_blank').focus();
 }
 
 function Prova02(){ //GD1
-	window.open('https://drive.google.com/file/d/1OE9b5hHrmiwPxAJTvdPJVIzxR71wMqFA/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1RucJMq2IgGZiyjelC8613i3Kr9A0G8nb/view?usp=drive_link', '_blank').focus();
 }
 
 function Prova03() { //AGG1
@@ -235,10 +236,10 @@ function Prova03() { //AGG1
   let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
 
   if (password == "setsugetsuka") {
-	window.open('https://drive.google.com/file/d/1SnYSWvJFMzqkidksZiijkTYOXpcXEPAV/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1f1KUDaxSsfae1ltnUsRX6uXl3kEE677s/view?usp=drive_link', '_blank').focus();
   }
-  if (password == "imagine" && hour >= 13 && hour <= 15) {
-	window.open('https://drive.google.com/file/d/1SnYSWvJFMzqkidksZiijkTYOXpcXEPAV/view?usp=drive_link', '_blank').focus();
+  if (password == "laranja" && hour >= 13 && hour <= 15) {
+	window.open('https://drive.google.com/file/d/1f1KUDaxSsfae1ltnUsRX6uXl3kEE677s/view?usp=drive_link', '_blank').focus();
   }
   else {
 	alert("Acesso negado!");
@@ -251,19 +252,19 @@ function Prova04() { //GD2
 	let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
   
 	if (password == "setsugetsuka") {
-		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
+		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
 	}
-	if (password == "amarelo" && hour >= 7 && hour <= 8) {
-		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
+	if (password == "osvaldo" && hour >= 7 && hour <= 8) {
+		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
 	}
-	if (password == "grama" && hour >= 10 && hour <= 11) {
-		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
+	if (password == "noite" && hour >= 10 && hour <= 11) {
+		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
 	}
-	if (password == "janela" && hour >= 13 && hour <= 14) {
-		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
+	if (password == "corra" && hour >= 13 && hour <= 14) {
+		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
 	}
-	if (password == "foguete" && hour >= 15 && hour <= 16) {
-		window.open('https://drive.google.com/file/d/1LJlbrgmt42gPdPTaRBb519GGidl5gqVd/view?usp=drive_link', '_blank').focus();
+	if (password == "garfo" && hour >= 15 && hour <= 16) {
+		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
 	}
 	else {
 	  alert("Acesso negado!");
