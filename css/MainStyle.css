@@ -278,10 +278,10 @@ p, h1, a{
 }
 
 #LinkProva01{
-	width: 2.5%;
- 	height: 6%;
-  	top: 74.5%;
-  	right: 21.2%;
+	width: 0.9%;
+	weight: 5%;
+  	top: 72.5%;
+  	right: 75%;
 }
 
 #LinkProva02{
@@ -474,4 +474,5 @@ p, h1, a{
 	#JerryDialogText{
 		font-size: 13px;
 	}
+
 }  
