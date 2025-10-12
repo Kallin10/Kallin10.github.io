@@ -223,51 +223,52 @@ function JerryTextPick() {
 // Provas com e sem senha --------------------------------------------------------------------------------------------------------------------------------------------------
 
 function Prova01(){ //AGG3
-	window.open('https://drive.google.com/file/d/14RgXko37JvKtyBmTGl4Q3IBuf1C2wbCs/view?usp=drive_link', '_blank').focus();
+	window.open('https://drive.google.com/file/d/1MfwEMbiNjR6Fkxk8hR6QK0brl5blDnKe/view?usp=drive_link', '_blank').focus();
 }
 
-function Prova02(){ //GD1
-	window.open('https://drive.google.com/file/d/1RucJMq2IgGZiyjelC8613i3Kr9A0G8nb/view?usp=drive_link', '_blank').focus();
-}
+//function Prova02(){ //GD1
+//	window.open('https://drive.google.com/file/d/1RucJMq2IgGZiyjelC8613i3Kr9A0G8nb/view?usp=drive_link', '_blank').focus();
+//}
 
-function Prova03() { //AGG1
-  const date = new Date();
-  const hour = date.getHours();
-  let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
+//function Prova03() { //AGG1
+//  const date = new Date();
+//  const hour = date.getHours();
+//  let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
 
-  if (password == "setsugetsuka") {
-	window.open('https://drive.google.com/file/d/1f1KUDaxSsfae1ltnUsRX6uXl3kEE677s/view?usp=drive_link', '_blank').focus();
-  }
-  if (password == "laranja" && hour >= 13 && hour <= 15) {
-	window.open('https://drive.google.com/file/d/1f1KUDaxSsfae1ltnUsRX6uXl3kEE677s/view?usp=drive_link', '_blank').focus();
-  }
-  else {
-	alert("Acesso negado!");
-  }
-}
+//  if (password == "setsugetsuka") {
+//	window.open('https://drive.google.com/file/d/1f1KUDaxSsfae1ltnUsRX6uXl3kEE677s/view?usp=drive_link', '_blank').focus();
+//  }
+//  if (password == "laranja" && hour >= 13 && hour <= 15) {
+//	window.open('https://drive.google.com/file/d/1f1KUDaxSsfae1ltnUsRX6uXl3kEE677s/view?usp=drive_link', '_blank').focus();
+//  }
+//  else {
+//	alert("Acesso negado!");
+//  }
+//}
 
-function Prova04() { //GD2
-	const date = new Date();
-	const hour = date.getHours();
-	let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
-  
-	if (password == "setsugetsuka") {
-		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
-	}
-	if (password == "osvaldo" && hour >= 7 && hour <= 8) {
-		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
-	}
-	if (password == "noite" && hour >= 10 && hour <= 11) {
-		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
-	}
-	if (password == "corra" && hour >= 13 && hour <= 14) {
-		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
-	}
-	if (password == "garfo" && hour >= 15 && hour <= 16) {
-		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
-	}
-	else {
-	  alert("Acesso negado!");
-	}
-  }
+//function Prova04() { //GD2
+//	const date = new Date();
+//	const hour = date.getHours();
+//	let password = prompt("Qual a senha para acessar o arquivo?", "Não sei");
+ 
+//	if (password == "setsugetsuka") {
+//		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
+//	}
+//	if (password == "osvaldo" && hour >= 7 && hour <= 8) {
+//		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
+//	}
+//	if (password == "noite" && hour >= 10 && hour <= 11) {
+//		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
+//	}
+//	if (password == "corra" && hour >= 13 && hour <= 14) {
+//		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
+//	}
+//	if (password == "garfo" && hour >= 15 && hour <= 16) {
+//		window.open('https://drive.google.com/file/d/1bUZ9G-6o2xiEk73b1EMGoCmH2E_8LJz1/view?usp=drive_link', '_blank').focus();
+//	}
+//	else {
+//	  alert("Acesso negado!");
+//	}
+//  }
+
 
